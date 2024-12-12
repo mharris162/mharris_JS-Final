@@ -1,0 +1,169 @@
+
+
+.body{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #E3EBFC;
+    color: #334365;
+}
+
+.darkmode{
+    background-color: #334365;
+    color: #E3EBFC;
+}
+
+.popup2{
+    display: none;
+}
+
+
+.container{
+   display: flex;
+   color: var(--text-color);
+}
+
+#box1{
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    width: 33%;
+    color: #334365;
+}
+
+.darkmode #box1{
+    color: #E3EBFC;
+}
+
+
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+
+h3{
+    font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+
+#box2{
+    width: 33%;
+}
+ 
+
+#box2 img{
+    width: 650px;
+    height: 850px;
+}
+
+#box2 img:first-child{
+    width: 650px;
+    height: 850px;
+    
+}
+
+#box2 img:last-child{
+    display:none;
+}
+
+.darkmode #box2 img:first-child{
+    display: none;
+}
+
+.darkmode #box2 img:last-child{
+    display: block;
+}
+
+#box3{
+    width: 33%; 
+    font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+
+
+#top-bttn{
+    margin-right: 15px;
+    float: right;
+}
+
+
+#change svg:last-child{
+    display: none;
+}
+
+.darkmode #change svg:first-child{
+    display: none;
+}
+
+.darkmode #change svg:last-child{
+    display: block;
+}
+
+
+.bttn svg:last-child{
+    display: none;
+}
+
+.darkmode .bttn svg:first-child{
+    display: none;
+}
+
+.darkmode .bttn svg:last-child{
+    display: block;
+}
+
+#popup{
+    color: #334365;
+}
+
+
+
+#popup h1{
+    font-size: 18px;
+}
+
+
+
+#popup button{
+    float:right;
+    visibility: visible;
+
+}
+
+#popup svg{
+    display: inline-block;
+}
+
+
+#clickDisplay{
+    float: left;
+    margin-top: 250px;
+    font-size: 24px;
+    justify-content: center;
+    color: #334365;
+}
+
+
+
+.darkmode #clickDisplay{
+    color: #E3EBFC
+}
+
+
+footer{
+    margin-top: 7px;
+    text-align: right;
+    color: #334365;
+}
+
+.darkmode footer h3{
+    color: #E3EBFC;
+}
+.darkmode footer a{
+    color: #E3EBFC;
+}

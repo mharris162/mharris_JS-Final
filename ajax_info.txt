@@ -1,0 +1,10 @@
+<div id="popup">
+<button id="close"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#334365"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button>
+<h1>About</h1>
+<p>At "Your Coding Space," we believe that comfort boosts productivity. For the best experience, we recommend using Chrome.</p>
+<p>Code and illustrations created by MacKenzie, a web designer and developer with a passion for side projects.</p>
+<h1>Dev Logs</h1>
+<p>12/10/2024- inital release of Your Coding Space</p>
+</div>
+
+
