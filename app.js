@@ -1,3 +1,19 @@
+window.onSpotifyIframeApiReady = (IFrameAPI) => {
+  const element = document.getElementById('embed-iframe');
+  const options = {
+      uri: 'spotify:playlist:36NMhpq6exkxnETYgZK1OJ'
+    };
+  const callback = (EmbedController) => {};
+  IFrameAPI.createController(element, options, callback);
+};
+
+const options = {
+  width: '60%',
+  height: '200',
+  uri: 'spotify:playlist:36NMhpq6exkxnETYgZK1OJ'
+};
+
+
 let darkmode = localStorage.getItem('darkmode');
 const change = document.getElementById('change');
 
